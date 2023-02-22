@@ -1,5 +1,5 @@
-const IndexPage = () => (
-  <div>Hello, World!</div>
+const Index = () => (
+  <div>Ad Astra 🚀</div>
 )
 
-export default IndexPage;
+export default Index;
