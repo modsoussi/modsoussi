@@ -1,4 +1,4 @@
-import type { LinksFunction, MetaFunction } from "@remix-run/node";
+import type { MetaFunction, LinksFunction } from "@remix-run/cloudflare";
 import {
   Links,
   LiveReload,
@@ -12,18 +12,18 @@ import Sidebar from "./components/Sidebar";
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 import fontStylesheetUrl from "./styles/font.css";
 
-export const links: LinksFunction = () => {
-  return [
-    { rel: "stylesheet", href: tailwindStylesheetUrl },
-    { rel: "stylesheet", href: fontStylesheetUrl },
-  ];
-};
-
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "modsoussi;",
+  title: "New Remix App",
   viewport: "width=device-width,initial-scale=1",
 });
+
+export const links: LinksFunction = () => {
+  return [
+    { rel: 'stylesheet', href: tailwindStylesheetUrl },
+    { rel: 'stylesheet', href: fontStylesheetUrl },
+  ]
+}
 
 export default function App() {
   return (
