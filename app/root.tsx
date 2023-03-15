@@ -7,8 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { Link } from "@remix-run/react";
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import Sidebar from "./components/Sidebar";
 
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 import fontStylesheetUrl from "./styles/font.css";
@@ -22,68 +21,9 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Per Aspera",
+  title: "modsoussi;",
   viewport: "width=device-width,initial-scale=1",
 });
-
-const Sidebar = () => {
-  return (
-    <div className="w-1/4">
-      <Link to="/">
-        <h1 className="text-3xl font-bold">modsoussi;</h1>
-      </Link>
-      <div className="my-8">
-        <ul>
-          <li>
-            <Link to='about'>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to='posts'>
-              Posts
-            </Link>
-          </li>
-        </ul>
-      </div>
-      <div className="my-8">
-        <h2 className="text-sm">Interests</h2>
-        <p>
-          AI &bull; Robotics &bull; Space Exploration
-        </p>
-      </div>
-      <div className="my-8 flex w-full">
-        <div className="mr-4">
-          <a 
-            href="https://twitter.com/modsoussi"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaTwitter />
-          </a>
-        </div>
-        <div className="mr-4">
-          <a 
-            href="https://github.com/modsoussi"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </div>
-        <div>
-          <a 
-            href="https://linkedin.com/in/modsoussi"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export default function App() {
   return (
@@ -94,9 +34,9 @@ export default function App() {
       </head>
       <body className="h-full">
         <div className="h-full flex items-center justify-center font-rubik">
-          <div className="flex h-full w-4/5 p-10">
+          <div className="flex h-full w-full lg:w-3/5 max-w-5xl p-4 md:p-10">
             <Sidebar />
-            <div className="w-full">
+            <div className="w-full px-4 md:px-8 py-1 md:py-2">
               <Outlet />
             </div>
           </div>
