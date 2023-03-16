@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { MetaFunction } from '@remix-run/node';
+import type { MetaFunction } from '@remix-run/cloudflare';
 
 export const meta: MetaFunction = () => ({
   title: "Bookshelf",
