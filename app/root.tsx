@@ -36,7 +36,7 @@ export default function App() {
         <div className="h-full flex items-center justify-center font-rubik">
           <div className="flex h-full w-full lg:w-3/5 max-w-5xl p-4 md:p-10">
             <Sidebar />
-            <div className="w-full px-4 md:px-8 py-1 md:py-2 text-sm md:text-base">
+            <div className="w-full px-4 md:px-6 pt-[0.6rem] lg:pt-[0.9rem] text-sm md:text-base">
               <Outlet />
             </div>
           </div>
