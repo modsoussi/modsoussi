@@ -21,8 +21,8 @@ export default function About() {
       </p>
       <p className="my-2">
         My areas of interest are <em>AI</em>, <em>Robotics</em>, <em>Space Exploration</em>, <em>Energy</em>, and&nbsp;<em>Startups</em>. 
-        Fundamentally, I believe humanity is the greatest thing to ever happen on Earth. Although we&apos;ve been, and continue to be, the 
-        root cause of harm to the world, it remains true that we haven't even scratched the surface of all the goodness we can still 
+        Fundamentally, I believe humanity is the greatest thing to ever happen on Earth. Although we did cause plenty of harm to the world, 
+        it remains true that we haven't even scratched the surface of all the goodness we can still 
         bring to each other, to the world, and to the Universe. AI and Robotics combined will multiply that potential for goodness by
         several orders of magnitude through startups. Space Exploration, although extremely
         difficult due to the fact that we evolved to live on Earth, is still going to be the most important endeavor of the 21st 
@@ -32,7 +32,7 @@ export default function About() {
         and that&apos;s exciting!
       </p>
       <p>
-        From where I stand, the future of humanity looks very bright. Let's build!
+        From where I stand, the future of humanity looks mighty bright. Let's build!
       </p>
     </main>
   );
