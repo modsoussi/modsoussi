@@ -21,13 +21,12 @@ export default function About() {
       </p>
       <p className="my-2">
         My areas of interest are <em>AI</em>, <em>Robotics</em>, <em>Space Exploration</em>, <em>Energy</em>, and&nbsp;<em>Startups</em>. 
-        Fundamentally, I believe humanity is the greatest thing to ever happen on Earth. Although we did cause plenty of harm to the world, 
-        it remains true that we haven't even scratched the surface of all the goodness we can still 
-        bring to each other, to the world, and to the Universe. AI and Robotics combined will multiply that potential for goodness by
-        several orders of magnitude through startups. Space Exploration, although extremely
-        difficult due to the fact that we evolved to live on Earth, is still going to be the most important endeavor of the 21st 
+        Fundamentally, I believe humanity is the greatest thing that's happened on Earth. We have caused plenty of harm to our environment,
+        there's no denying that, but it remains true that we haven't even scratched the surface of what we're able to bring into this world. 
+        AI and Robotics combined will multiply that potential for goodness by several orders of magnitude through innovative startups. Space Exploration, although extremely
+        difficult because we evolved to live right here on Earth, is still going the most important endeavor of the 21st 
         century. Space means more knowledge, more resources, and more space for people to thrive. To explore outer Space,
-        we'll need new engines to power ships capable of traveling at much greater speeds than what's possible today. 
+        we'll need new engines to power ships capable of traveling much faster than what's possible today. 
         We'll need self-sustaining orbital habitats. We&apos;ll need to solve these and many other problems, 
         and that&apos;s exciting!
       </p>
