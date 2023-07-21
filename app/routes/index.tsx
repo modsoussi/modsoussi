@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 
 export const meta: MetaFunction = () => ({
-  title: "About",
+  title: "modsoussi;",
 })
 
 export default function About() {
