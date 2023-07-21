@@ -11,11 +11,6 @@ const Sidebar = () => {
       <div className="my-8">
         <ul>
           <li>
-            <NavMenuItem to='/about'>
-              About
-            </NavMenuItem>
-          </li>
-          <li>
             <NavMenuItem to="/bookshelf">
               Bookshelf
             </NavMenuItem>

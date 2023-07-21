@@ -35,7 +35,7 @@ export default function Bookshelf() {
   return (
     <main>
       <p>
-        I like to read, and I&apos;m deeply grateful to my parents for that. 
+        I enjoy books, and I&apos;m deeply grateful to my parents for that. 
         I'm not going to list every single book I&apos;ve read as that would be meaningless. Instead, I&apos;m only including
         those that played a key role in shaping who I am and how I think.
       </p>
