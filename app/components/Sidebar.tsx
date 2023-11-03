@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div className="my-8">
         <h2 className="text-xs md:text-sm text-oxford-500">Interests</h2>
         <p className="text-sm md:text-base">
-          AI &bull; Robotics &bull; Space Exploration &bull; Startups
+          AI &bull; Nanotech &bull; Space &bull; Energy &bull; Startups
         </p>
       </div>
       <div className="my-8 flex flex-col md:flex-row w-full">

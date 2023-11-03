@@ -19,6 +19,7 @@ const BOOK_LIST = [
   'The Dream Machine',
   'La Fortune de Gaspard',
   'Build',
+  'Where\'s my flying car?'
 ]
 
 type BookshelfItemProps = {
