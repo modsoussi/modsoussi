@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import NavMenuItem from './NavMenuItem';
 import { Link } from '@remix-run/react';
 
@@ -35,7 +35,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaTwitter className="text-kabul-500" size={20}/>
+            <FaXTwitter className="text-kabul-500" size={20}/>
           </a>
         </div>
         <div className="my-4 md:my-0 md:mx-4">
