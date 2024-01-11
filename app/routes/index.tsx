@@ -19,16 +19,16 @@ export default function About() {
         </a> 
       </p>
       <p className="my-2">
-        I'm mainly interested in <em>AI</em>, <em>Nanotech</em>, <em>Space Exploration</em>, <em>Energy</em>, and&nbsp;<em>Startups</em>. 
+        I'm interested in <em>AI</em>, <em>Nanotech</em>, <em>Space Exploration</em>, <em>Energy</em>, and&nbsp;<em>Startups</em>. 
         I believe humanity is fundamentally the greatest thing that's happened to Earth. We have caused plenty of harm to our environment,
-        there's no denying that, but it remains true that we haven't even scratched the surface of all the goddness that we can bring into it. 
-        AI and Nanotech combined will multiply that potential by several orders of magnitude through innovative startups. Space Exploration, although extremely
-        difficult since we evolved to live right here on Earth, is in my opinion one of the most important endeavors of the 21st 
+        there's no denying that, but no other species has as much leverage over it as we do. That means the amount of goodness that can we bring into it is limitless.
+        AI, Energy Abundance, and Nanotech combined will multiply that potential by several orders of magnitude. Space Exploration, although extremely
+        difficult since we evolved to live here on Earth, is in my opinion one of the most important endeavors of the 21st 
         century. Space means more knowledge, more resources, and more space for people to live and thrive. Space pushes us to truly think outside the box, and come
         up wih solutions to some really hard problems: space situational awareness, orbital debris, self-sustaining orbital habitats, energy abundance, ever faster space travel, and more.  
       </p>
       <p>
-        From where I stand, the future of humanity looks mighty bright. Let's build!
+        From where I stand, the future of humanity looks mighty bright. If any of the above resonates with you, feel free to reach out, and let's build!
       </p>
     </main>
   );
