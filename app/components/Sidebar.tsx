@@ -4,11 +4,11 @@ import { Link } from '@remix-run/react';
 
 const Sidebar = () => {
   return (
-    <nav className="w-1/4 p-2">
+    <nav className="text-center md:text-left md:w-1/4 p-2">
       <Link to="/">
         <h1 className="text-base md:text-2xl xl:text-3xl font-bold text-oxford-500">modsoussi;</h1>
       </Link>
-      <div className="my-8">
+      <div className="my-4 md:my-8">
         <ul>
           <li>
             <NavMenuItem to="/bookshelf">
@@ -22,13 +22,13 @@ const Sidebar = () => {
           </li> */}
         </ul>
       </div>
-      <div className="my-8">
-        <h2 className="text-xs md:text-sm text-oxford-500">Interests</h2>
+      <div className="my-4 md:my-8">
+        <h2 className="text-sm mb-1 md:mb-0 text-oxford-500">Interests</h2>
         <p className="text-sm md:text-base">
           AI &bull; Nanotech &bull; Space &bull; Energy &bull; Startups
         </p>
       </div>
-      <div className="my-8 flex flex-col md:flex-row w-full">
+      <div className="my-4 md:my-8 flex items-center justify-center md:justify-start md:flex-row w-full">
         <div>
           <a 
             href="https://twitter.com/modsoussi"
@@ -38,7 +38,7 @@ const Sidebar = () => {
             <FaXTwitter className="text-kabul-500" size={20}/>
           </a>
         </div>
-        <div className="my-4 md:my-0 md:mx-4">
+        <div className="md:my-0 mx-4">
           <a 
             href="https://github.com/modsoussi"
             target="_blank"
@@ -57,6 +57,7 @@ const Sidebar = () => {
           </a>
         </div>
       </div>
+      <hr className="mt-6 mb-2 md:hidden" />
     </nav>
   );
 }
