@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <nav className="text-center md:text-left md:w-1/4 p-2">
       <Link to="/">
-        <h1 className="text-base md:text-2xl xl:text-3xl font-bold text-oxford-500">modsoussi;</h1>
+        <h1 className="text-base md:text-2xl xl:text-3xl font-bold text-oxford-500 hover:text-dawn-500">modsoussi;</h1>
       </Link>
       <div className="my-4 md:my-8">
         <ul>
