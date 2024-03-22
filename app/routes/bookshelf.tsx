@@ -34,7 +34,7 @@ type BookshelfItemProps = {
 const BookshelfItem = ({ book }: BookshelfItemProps) => (
   <li className="list-inside list-disc ml-2">
     {typeof book.link !== 'undefined' ? (
-      <a href={book.link} target="_blank" className="hover:text-dawn-500">
+      <a href={book.link} target="_blank" className="text-kabul-200">
         {book.title}
       </a>
     ) : (

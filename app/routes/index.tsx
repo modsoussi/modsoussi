@@ -13,8 +13,8 @@ export default function About() {
         We have the capacity to make things infinitely better for everyone by building better technology, and I don&apos;t just mean IT.
       </p>
       <div className="my-2">
-        I'm intereted in AI and getting to AGI, Energy and how we can climb the Kardashev scale, Nanotech and how we can gain &quot;complete control over
-        the structure of matter&quot;, and Space Exploration and how we become a multiplanetary species.
+        I'm intereted in AI and how we get to AGI; Energy and how we climb the Kardashev scale; Nanotech and how we gain &quot;complete control over
+        the structure of matter;&quot; and Space Exploration and how we become a multiplanetary species.
       </div>
       <p>
         Our time on Earth is the most valuable thing we have, and I choose to spend mine contributing to the advancement of AI, Energy, Nanotech, and Space 

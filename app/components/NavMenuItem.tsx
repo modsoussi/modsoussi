@@ -12,7 +12,7 @@ const NavMenuItem = ({ to, children }: NavMenuItemProps) => {
   return (
     <Link 
       to={to} 
-      className={`hover:text-dawn-500 transition-all duration-100 text-sm md:text-base${location.pathname.includes(to) ? ' text-dawn-500' : ''}`}>
+      className={`text-kabul-200 transition-all duration-100 text-sm md:text-base${location.pathname.includes(to) ? ' text-dawn-500' : ''}`}>
       {children}
     </Link>
   );
