@@ -48,8 +48,7 @@ export default function Bookshelf() {
   return (
     <main>
       <p>
-        I'm not going to list every single book I&apos;ve read as that would be meaningless. Instead, I&apos;m only including
-        those that shaped who I am and how I think.
+        Here&apos;s a list of books I&apos;ve read that shaped who I am and how I think:
       </p>
       <ul className="my-2">
         {BOOK_LIST.map((book, index) => (
