@@ -9,7 +9,7 @@ export default function About() {
     <main className="pb-4 md:pb-10">
       
       <p className="my-2">
-        I&apos;m Mo, short for Mohamed. Fundamentally, I believe that humanity is the greatest thing to ever happen to planet Earth, and I want to see us thrive as a species. 
+        Fundamentally, I believe that humanity is the greatest thing to ever happen to planet Earth, and I want to see us thrive as a species. 
         We have the capacity to make things infinitely better for everyone by building better technology, and I don&apos;t just mean IT.
       </p>
       <div className="my-2">
